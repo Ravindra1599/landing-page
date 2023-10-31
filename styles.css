@@ -1,0 +1,134 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0;
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.img-placeholder {
+    width: 500px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.about-us {
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.texts {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info {
+    margin: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3883f6;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.card {
+    max-width: 160px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+h5 {
+    text-align: right;
+}
+
+.sign-up {
+    padding: 20px;
+    margin: 80px;
+    background-color: #3883f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #3883f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer {
+    color: #e5e7eb;
+    padding: 25px;
+    text-align: center;
+}
